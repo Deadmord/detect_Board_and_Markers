@@ -65,7 +65,7 @@ const char* keys  =
 //! [charuco_detect_board_keys]
 
 
-int main(int argc, char *argv[]) {
+int createBoardCharuco(int argc, char *argv[]) {
     CommandLineParser parser(argc, argv, keys);
     parser.about(about);
 

@@ -63,7 +63,7 @@ const char* keys  =
 //! [aruco_create_markers_keys]
 
 
-int main(int argc, char *argv[]) {
+int createMarker(int argc, char *argv[]) {
     CommandLineParser parser(argc, argv, keys);
     parser.about(about);
 

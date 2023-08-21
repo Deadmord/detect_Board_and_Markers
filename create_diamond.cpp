@@ -63,7 +63,7 @@ const char* keys  =
 
 /**
  */
-int main(int argc, char *argv[]) {
+int createDiamond(int argc, char *argv[]) {
     CommandLineParser parser(argc, argv, keys);
     parser.about(about);
 
