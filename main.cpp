@@ -14,9 +14,9 @@ namespace {
 
 const char* argvCreateMarker[] = {
         "program_name - create marker",   // Здесь "program_name" может быть любой строкой, она обычно является именем исполняемого файла
-        "markers/marker0.png",
+        "markers/marker5.png",
         "-d=10",
-        "-id=0",
+        "-id=5",
         "-ms=200",
         "-bb=1",
         "-si=true",
